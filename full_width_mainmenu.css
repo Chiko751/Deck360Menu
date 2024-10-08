@@ -1,0 +1,90 @@
+
+.mainmenu_Menu_23IDi.mainmenu_Open_3apLK:only-child {
+    height: 560px;
+    width: 575px;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    padding-left: 525px;
+    justify-content: center;
+    background-color: transparent;
+    padding-right: none;
+    border-right: none;
+}
+
+.BasicUI {}
+
+._3vzvOyI0h9mIihOEtO6wZ2
+
+._3apLK4XGwOjawDa-8X1CUa
+
+.mainmenu_Menu_23IDi.mainmenu_Open_3apLK:not(:only-child):not(.mainmenu_Collapsed_3I23q) {
+    width: var(--main-menu-width);
+    /*
+    width: var(--main-menu-width);
+    height: 75%;
+
+
+    width: var(--main-menu-width);
+    height: 55%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    */
+}
+
+/*
+  This is needed because without it the icons are shoved off
+  the screen to the left
+*/
+.mainmenu_Collapsed_3I23q > .mainmenu_ItemOuter_1BbM8 {
+    width: 200px;
+}
+
+
+.mainmenu_ItemOuter_1BbM8 {
+    width: var(--main-menu-width);
+    background-color: darkgrey;
+    height: 6.1%;
+    
+}
+
+.mainmenu_ActiveDot_1uLVH {
+    left: 0px !important;
+    width: 0% !important;
+    color: green;
+    forced-color-adjust: green;
+    background-color: green;
+}
+
+
+
+/*
+  This is needed because without it the icons are shoved off
+  the screen to the left
+    left: 5px !important;
+    width: 1.25% !important;
+
+    background-color: lightslategrey;
+    color: lightslategrey;
+    color-scheme: lightslategrey;
+    column-rule-color: lightslategrey;
+    forced-color-adjust: lightslategrey;
+
+
+*/
+
+.mainmenu_ItemLabel_3x-ZK {
+    max-width: 100%;
+    font-size: 85%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    align-self: center;
+}
+
+.mainmenuapprunning_NavigationColumn_27FEg {
+    scroll-snap-align: start;
+
+}

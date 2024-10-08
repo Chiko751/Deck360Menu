@@ -1,0 +1,84 @@
+{
+  "name": "Xb360Test",
+  "author": "dankutron9000",
+  "version": "v1.4.0",
+  "manifest_version": 8,
+  "inject": {
+    "bigpicture.css": [
+      "bigpicture"
+    ],
+    "full_width_mainmenu.css": [
+      "MainMenu"
+    ],
+    "full_width_qam.css": [
+      "QuickAccess"
+    ]
+  },
+  "patches": {
+    "Main Menu Width": {
+      "default": "Off",
+      "type": "slider",
+      "values": {
+        "Off": {
+          "--main-menu-width": [
+            "525px",
+            "bigpicture",
+            "MainMenu"  
+          ]
+        },
+        "50%": {
+          "--main-menu-width": [
+            "50vw",
+            "bigpicture",
+            "MainMenu"
+          ]
+        },
+        "75%": {
+          "--main-menu-width": [
+            "75vw",
+            "bigpicture",
+            "MainMenu"
+          ]
+        },
+        "100%": {
+          "--main-menu-width": [
+            "100vw",
+            "bigpicture",
+            "MainMenu"
+          ]
+        }
+      }
+    },
+    "QAM Width": {
+      "default": "Off",
+      "type": "slider",
+      "values": {
+        "Off": {
+          "--qam-width": [
+            "348px",
+            "bigpicture"
+          ]
+        },
+        "50%": {
+          "--qam-width": [
+            "50vw",
+            "bigpicture"
+          ]
+        },
+        "75%": {
+          "--qam-width": [
+            "75vw",
+            "bigpicture"
+          ]
+        },
+        "100%": {
+          "--qam-width": [
+            "100vw",
+            "bigpicture"
+          ]
+        }
+      }
+    }
+  },
+  "id": "c6adc8b3-4a9b-425e-8ddc-1d0a3fc155b2"
+}
