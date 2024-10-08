@@ -1,27 +1,6 @@
-.html {
-    color: transparent; 
-    background-color: transparent;  
- }
- 
- .body {
-    color: transparent; 
-    background-color: transparent;  
-   }
- 
- ._23IDiI-F_FxXotrgpY71r8{
-    color: transparent; 
-    background-color: transparent;
- }
-
-._23IDiI-F_FxXotrgpY71r8 _3apLK4XGwOjawDa-8X1CUa Panel{
-    color: transparent; 
-    background-color: transparent;
-}
-
 .quickaccessmenu_ViewPlaceholder_2orc8:not(.quickaccessmenu_FullHeight_3ud27) {
     height: calc(100% - var(--basicui-header-height));
     width: var(--qam-width);
-    padding-left: 50%;
     position: absolute;
     align-self: center;
     align-items: center;
@@ -30,6 +9,11 @@
     color: transparent; 
     background-color: transparent;
 
+}
+
+.header{
+    padding-top: 25%;
+    width: 20%;
 }
 
 .quickaccessmenu_ViewPlaceholder_2orc8 {
@@ -45,9 +29,8 @@
 }
 
 .mainmenu_ViewPlaceholder_1PGlK {
-    height: calc(100% + var(--basicui-header-height));
-    width: var(--main-menu-width);
-    padding-left: 43%;
+    width: 100%;
+    padding-left: 4.5%;
     position: absolute;
     align-self: center;
     align-items: center;
@@ -55,5 +38,6 @@
     justify-content: center;
     color: transparent; 
     background-color: transparent;
+    border-radius: 50%;
     
 }

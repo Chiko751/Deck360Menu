@@ -21,7 +21,7 @@
       "values": {
         "Off": {
           "--main-menu-width": [
-            "525px",
+            "50%",
             "bigpicture",
             "MainMenu"  
           ]
